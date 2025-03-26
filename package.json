@@ -1,0 +1,22 @@
+{
+  "name": "redis-sample-express-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start_redis": "node redisindex.js",
+    "start_aws": "node awsindex.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.775.0",
+    "@aws-sdk/lib-storage": "^3.775.0",
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.8.4",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.2",
+    "redis": "^4.7.0"
+  }
+}
